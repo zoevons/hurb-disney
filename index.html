@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hurb Disney</title>
+        <meta name="description" content="I would always add a description here">
+        <meta name="keywords" content="I would always add a keywords here">
+        <meta name="author" content="Zoe von Scharfenberg">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- NAVBAR -->
+        <div class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="navbar-header">
+                            <button class="navbar-toggle" data-target="#mobile_menu" data-toggle="collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                            <a class="navbar-brand" href="#">
+                                <img class="logo" src="hurb-logo.png" width="100" height="40" alt="Hurb Logo" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="navbar-collapse collapse" id="mobile_menu">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#">Destinos</a></li>
+                                <li><a href="#">Hotéis</a></li>
+                                <li><a href="#">Pacotes</a></li>
+                                <li><a href="#">Experiências</a></li>
+                                <li><a href="#">Ônibus</a></li>
+                                <li><a href="#">Resorts</a></li>
+                                <li><a href="#">Disney</a></li>
+                                <li><a href="#">Promoções</a></li>
+                            </ul>
+                           
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><button class="btn btn-sm btn-outline-secondary" type="button">Fale conosco</button></li>
+                                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Entrar</a></li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <ul class="nav navbar-nav list-inline second-nav">
+                                <li>Hotéis</li>
+                                <li class="active">Pacotes</li>
+                                <li>Experiências</li>
+                                <li>Ônibus</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="input-group search-bar">
+                        <input type="search" name="search" placeholder="&#x1F50D; Vai pra onde?" class="form-control">
+                        <span class="input-group-addon search-button"> Pesquisar</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROMO BAR -->
+        <div class="promobar">
+            <p class="promo-text"><i class="fas fa-hand-holding-usd"></i> Novidade! Hurb cash, sua viagem pre-paga. <a class="click" href="#">Clique aqui</a> e saiba mais.</p>
+        </div>
+
+        <!-- GALLERY SECTION -->
+        <div class="container gallery-section">
+            <div class="mySlides">
+                <img src="https://www.gannett-cdn.com/presto/2020/01/07/PPAS/e186d8bd-44b7-4ba4-ad69-3d6710648938-Disneyland_Resort_in_California_08_2019___DL.5782.JPG?width=1080&quality=50" alt="Disneyland" style="max-width:100%;cursor:pointer"
+	            onclick="onClick(this)" class="modal-hover-opacity">
+            </div>
+
+            <div class="mySlides">
+                <img src="https://lh6.googleusercontent.com/zjyP3eVeaNeYP5frt9n-3HHpONrOhAloIpKiT8yp7YKHLeKv8lSC3HQOqLLoKREV-3MQ7WyRjipX6cy0vk9sMsJ47AimnesCMFNXRpEyr-_id4npg18xihylahzX_RnLY0JRWFRR" alt="Disneyland" style="max-width:100%;cursor:pointer"
+	            onclick="onClick(this)" class="modal-hover-opacity">
+            </div>
+
+            <div class="mySlides">
+                <img src="https://lh3.googleusercontent.com/TVOsFyBLDj1fUkVQOme0uCYvpNUBXd92kv3GXpJNSxGSPlAubnA44bamBKBjUSoV6OgAgG1aqN0VOc8QmkkCEMeDt1QEnaRO7ixpJM0UH0WA_fder6EYOROCycjUmmo4_gGcW5xu" alt="Disneyland" style="max-width:100%;cursor:pointer"
+	            onclick="onClick(this)" class="modal-hover-opacity">
+            </div>
+    
+            <div class="mySlides">
+                <img src="https://lh4.googleusercontent.com/rrxhUlfzQU1qp9AuTYm112ouLXSyR8s_mcnhYcXkEo2ClEKaqRO8pB7JwXFel1M0HbH1wFhv4tra97WhEzhb67Hxx_ezsYsZiebutdt-TuKhcXAnMGJM0H_eOyv9BI_PI9gLM26T" alt="Disneyland" style="max-width:100%;cursor:pointer"
+	            onclick="onClick(this)" class="modal-hover-opacity">
+            </div>
+
+            <div class="mySlides">
+                <img src="https://lh6.googleusercontent.com/53QCs8NVfzd-sxH2TZg15cVK-FbCED6Vc4hCBjDRTrjp_fi8_q3ROuDT61T-ZOScFJ2fgYxngbQFoFgg3J5Nu9o_5yUlMunOB-4StpFoLgkNxecHB6TSwoDTDlNwsHbKC-XNA9g" alt="Disneyland" style="max-width:100%;cursor:pointer"
+	            onclick="onClick(this)" class="modal-hover-opacity">
+            </div>
+    
+            <div class="mySlides">
+                <img src="https://lh5.googleusercontent.com/Ul-KEzeAnpMRD8fM2qswWV6qJXMT7Ly5ehS-k5SGJTZ50R2EQYNMHlfwYjnjUw8Jsa4YRV8xGR09mi6XFCsRL2jycAaoJ34E_RmFJh1aAddpgV5B5ZXpg0bCMeTmkqWNsIMhr2Nc" alt="Disneyland" style="max-width:100%;cursor:pointer"
+	            onclick="onClick(this)" class="modal-hover-opacity">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="https://www.gannett-cdn.com/presto/2020/01/07/PPAS/e186d8bd-44b7-4ba4-ad69-3d6710648938-Disneyland_Resort_in_California_08_2019___DL.5782.JPG?width=1080&quality=50" style="width:100%" onclick="currentSlide(1)" alt="Disneyland">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="https://lh6.googleusercontent.com/zjyP3eVeaNeYP5frt9n-3HHpONrOhAloIpKiT8yp7YKHLeKv8lSC3HQOqLLoKREV-3MQ7WyRjipX6cy0vk9sMsJ47AimnesCMFNXRpEyr-_id4npg18xihylahzX_RnLY0JRWFRR" style="width:100%" onclick="currentSlide(2)" alt="Disneyland">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="https://lh3.googleusercontent.com/TVOsFyBLDj1fUkVQOme0uCYvpNUBXd92kv3GXpJNSxGSPlAubnA44bamBKBjUSoV6OgAgG1aqN0VOc8QmkkCEMeDt1QEnaRO7ixpJM0UH0WA_fder6EYOROCycjUmmo4_gGcW5xu" style="width:100%" onclick="currentSlide(3)" alt="Disneyland">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="https://lh4.googleusercontent.com/rrxhUlfzQU1qp9AuTYm112ouLXSyR8s_mcnhYcXkEo2ClEKaqRO8pB7JwXFel1M0HbH1wFhv4tra97WhEzhb67Hxx_ezsYsZiebutdt-TuKhcXAnMGJM0H_eOyv9BI_PI9gLM26T" style="width:100%" onclick="currentSlide(4)" alt="Disneyland">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="https://lh6.googleusercontent.com/53QCs8NVfzd-sxH2TZg15cVK-FbCED6Vc4hCBjDRTrjp_fi8_q3ROuDT61T-ZOScFJ2fgYxngbQFoFgg3J5Nu9o_5yUlMunOB-4StpFoLgkNxecHB6TSwoDTDlNwsHbKC-XNA9g" style="width:100%" onclick="currentSlide(5)" alt="Disneyland">
+                </div>    
+                <div class="column">
+                    <img class="demo cursor" src="https://lh5.googleusercontent.com/Ul-KEzeAnpMRD8fM2qswWV6qJXMT7Ly5ehS-k5SGJTZ50R2EQYNMHlfwYjnjUw8Jsa4YRV8xGR09mi6XFCsRL2jycAaoJ34E_RmFJh1aAddpgV5B5ZXpg0bCMeTmkqWNsIMhr2Nc" style="width:100%" onclick="currentSlide(6)" alt="Disneyland">
+                </div>
+            </div>
+        </div>
+
+        <div id="modal01" class="modal" onclick="this.style.display='none'">
+            <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+             <div class="modal-content">
+                <img id="img01" style="max-width:100%">
+             </div>
+        </div>
+
+
+        <!-- INFORMATION SECTION -->
+        <div class="info-section">
+            <div class="holiday-header">
+                <p class=" small-text country-text">Orlando, USA</p>
+                <h2>Pacote Orlando + Miami - 2020</h2>
+                <img class="bestprice" src="bestprice.png" width="100" height="100" alt="Best Price Logo">
+                <p class="small-text country-text">Passagem Aérea + Hospedagem + Alugel de Carro</p>
+                <p class="small-text"><i class="fas fa-umbrella-beach"></i><span class="bold-text"> 7</span> ou <span class="bold-text">11</span> diarias</p>
+                <p class="small-text spacing"><i class="fas fa-phone-alt"></i> Reserve on-line ou ligue 4020 7754</p>
+            </div>
+
+            <div class="holiday-icons">
+                <ul class="icon-list">
+                    <li><i class="fas fa-bed"></i> Apartamento</li>
+                    <li><i class="fas fa-car"></i> Aluguel de carro</li>
+                    <li><i class="fas fa-plane-departure"></i> Passagem Aérea</li>
+                </ul>
+            </div>
+
+            <div id="date-section">
+                <div class="holiday-dates">
+                    <p class="date-bold">Escolha sua data</p>
+                    <p class="date-pink">Saiba mais</p>
+                </div>
+
+                <div>
+                    <p class="entre-text">Entre o perido de:</p>
+                    <p class="start-date">01</p>
+                    <p class="start-month">Mar</p>
+                    <p class="start-year">2020</p>
+                    <p class="arrow"><i class="fas fa-long-arrow-alt-right fa-5x"></i></p>
+                    <p class="end-date">30</p>
+                    <p class="end-month">Nov</p>
+                    <p class="end-year">2020</p>
+                </div>
+            </div>
+
+            <div class="price-section">
+                <div class="holiday-prices">
+                    <p class="discount">-50%</p>
+                    <p class="partir-text">A partir de <span class="line">R$ 4598</span></p>
+                    <p class="orange-text">R$ <span class="price">2299</span></p>
+                    <p class="final-price">Precio final!</p>
+                    <p class="em-text">Em até 12x</p>
+                    <p class="cancel-text"><i class="fas fa-check"></i> Cancelamento Gratis</p>
+                </div>
+            </div>
+
+            <button class="booking-btn">Escolher Opcao</button>
+        </div>
+        
+
+        <script src="main.js" async defer></script>
+    </body>
+</html>
